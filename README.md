@@ -1,3 +1,5 @@
+> Note: This is a simple bespoke project that I vibe-coded with Claude Code during the process of creating this presentation. While cleaning it up, I realized that there's already another more feature-rich project called [manim-slides](https://github.com/jeertmans/manim-slides) which can be used for similar purposes. You might want to check that one out (or just vibe-code your own framework...)
+
 # manim-clips
 
 Render [Manim](https://www.manim.community) animations as **one GIF per slide**, so you can drop them into Keynote, PowerPoint, or any HTML deck and click through at your own pace.

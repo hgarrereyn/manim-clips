@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# manim output
+media/
+slides_output/
+.manifest*.json
+
+# editors
+.vscode/
+.idea/
+.DS_Store

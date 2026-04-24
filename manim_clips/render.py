@@ -23,7 +23,7 @@ from typing import Type
 
 from manim import config
 
-from manim_slides.scene import SlideMixin
+from manim_clips.scene import SlideMixin
 
 
 QUALITY_PRESETS: dict[str, dict[str, int]] = {
@@ -110,7 +110,7 @@ def render_slides(
         except json.JSONDecodeError:
             manifest = {}
 
-    tmp_dir = Path(tempfile.mkdtemp(prefix="manim_slides_"))
+    tmp_dir = Path(tempfile.mkdtemp(prefix="manim_clips_"))
 
     print(f"\nFound {len(segments)} slides. Splitting into GIFs...\n")
 

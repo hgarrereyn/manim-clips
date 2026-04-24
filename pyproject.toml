@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "manim-slides"
+name = "manim-clips"
 version = "0.1.0"
 description = "Export Manim animations as per-slide GIFs, suitable for drop-in use in Keynote or PowerPoint."
 readme = "README.md"
@@ -21,8 +21,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/hgarrereyn/manim-slides"
+Homepage = "https://github.com/hgarrereyn/manim-clips"
 
 [tool.setuptools.packages.find]
-include = ["manim_slides*"]
+include = ["manim_clips*"]
 exclude = ["examples*", "media*", "slides_output*"]

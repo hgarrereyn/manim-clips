@@ -1,4 +1,4 @@
-"""FrameShift — a full Manim presentation built with manim-slides.
+"""FrameShift — a full Manim presentation built with manim-clips.
 
 Combines two decks into one continuously-numbered presentation:
     Part 1 (FrameShiftSlides):   microbiology intro, PNG mutation walkthrough,
@@ -22,7 +22,7 @@ import argparse
 import random
 
 from manim import *
-from manim_slides import SlideScene, render_slides
+from manim_clips import SlideScene, render_slides
 
 
 # ──────────────────────────────────────────────────────────────────────────

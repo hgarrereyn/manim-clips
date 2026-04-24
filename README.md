@@ -1,4 +1,4 @@
-# manim-slides
+# manim-clips
 
 Render [Manim](https://www.manim.community) animations as **one GIF per slide**, so you can drop them into Keynote, PowerPoint, or any HTML deck and click through at your own pace.
 
@@ -7,7 +7,9 @@ Unlike a single long video, each slide is its own file that plays once and lands
 ## Install
 
 ```bash
-pip install manim-slides
+git clone https://github.com/hgarrereyn/manim-clips.git
+cd manim-clips
+pip install -e .
 ```
 
 Requires `ffmpeg` on your `PATH` (Manim needs it too).
@@ -16,7 +18,7 @@ Requires `ffmpeg` on your `PATH` (Manim needs it too).
 
 ```python
 from manim import *
-from manim_slides import SlideScene, render_slides
+from manim_clips import SlideScene, render_slides
 
 
 class Demo(SlideScene):
@@ -69,7 +71,7 @@ Empty segments (if `next_slide` is followed immediately by `next_sub_slide`) are
 
 ```python
 from manim import MovingCameraScene
-from manim_slides import SlideMixin, render_slides
+from manim_clips import SlideMixin, render_slides
 
 class MyScene(SlideMixin, MovingCameraScene):
     def construct(self):
